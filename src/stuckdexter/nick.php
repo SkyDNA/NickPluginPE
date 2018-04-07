@@ -12,7 +12,7 @@ use pocketmine\event\player\PlayerQuitEvent;
 use pocketmine\event\player\PlayerKickEvent;
 
 
-class Nick extends PluginBase implements Listener{
+class Nick extends PluginBase Listener{
 
 public $prefix = "§7[§5Nick§7] ";
 public $nicked = [];
