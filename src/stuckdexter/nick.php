@@ -11,7 +11,8 @@ use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerQuitEvent;
 use pocketmine\event\player\PlayerKickEvent;
 
-class nick extends PluginBase implements Listener{
+
+class Nick extends PluginBase implements Listener{
 
 public $prefix = "§7[§5Nick§7] ";
 public $nicked = [];
@@ -88,4 +89,4 @@ $this->getLogger()->info($this->prefix."§cDas kann nur ein Spieler!");
 }
 }
 }
-?>
+
